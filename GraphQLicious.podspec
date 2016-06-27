@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/WeltN24/GraphQLicious"
   s.license          = 'MIT'
   s.author           = { "Felix Dietz" => "felix.dietz@weltn24.de" }
-  s.source           = { :git => "https://github.com/dehlen/GraphQLicious.git", :tag => "0.7" }
+  s.source           = { :git => "https://github.com/dehlen/GraphQLicious.git", :tag => "#{s.version}" }
 
   s.ios.platform = :ios, "9.0"
   s.osx.platform = :osx, "10.10"
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
   s.requires_arc = true
 
-  s.source_files = 'Sources/**/*.swift', 'Sources/GraphQlicious.h'
+  s.source_files = 'Sources/**/*.swift', 'Sources/GraphQLicious.h'
 
   #s.public_header_files = 
 end
