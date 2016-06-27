@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/WeltN24/GraphQLicious"
   s.license          = 'MIT'
   s.author           = { "Felix Dietz" => "felix.dietz@weltn24.de" }
-  s.source           = { :git => "https://github.com/WeltN24/GraphQLicious.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/dehlen/GraphQLicious.git", :tag => s.version.to_s }
 
   s.ios.platform = :ios, "9.0"
   s.osx.platform = :osx, "10.10"
